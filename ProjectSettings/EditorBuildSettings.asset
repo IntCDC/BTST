@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MeshColor.unity
+    guid: 70f326f9eec3ad04c8d29728e6bf0c82
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/STC.unity
+    guid: ed09c904b39faed4f8dc758e0faf7e9a
+  - enabled: 1
+    path: Assets/Scenes/GazeReplay.unity
+    guid: 0906355ea7ec83a48b599af9d493339d
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7710fedcd595644e9f987261c1c2ec2, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0c26c968455c87743b04064758f6962d, type: 2}

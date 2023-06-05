@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9202442130340122455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9202442130340122453}
+  - component: {fileID: 9202442130340122454}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9202442130340122453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202442130340122455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9202442130340122454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202442130340122455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e10b9589ea82b843b39333302eeb1fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  searchField: {fileID: 0}
+  particpantGameObject: {fileID: 5733904915873141218, guid: 605708f06e8082e438eef1f1eb0b3489, type: 3}
+  parentPanel: {fileID: 0}
+  toggle_p: {fileID: 190948962255226522, guid: 060e8b9172a76154681d20c884e5513b, type: 3}
+  toggles: []
+  paths:
+  - 2022_02_11-14_04_46-Nelusa-Trial
+  - 2022_02_11-15_03_42-Seyda-Trial
+  - 2022_02_11-16_56_07-Participant1-trial2
+  - 2022_02_14-11_32_23-Participant2-trial2
+  - 2022_02_14-14_18_22-participant3-trial2
+  - 2022_02_14-15_51_38-participant4-trial2
+  - 2022_02_15-14_30_32-Participant5-trial2
+  - 2022_02_15-17_48_39-Participant6-trial2
