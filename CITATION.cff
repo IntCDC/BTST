@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Pathmanathan"
+  given-names: "Nelusa"
+  orcid: "https://orcid.org/0000-0002-6848-8554"
+- family-names: "Öney"
+  given-names: "Seyda"
+  orcid: "https://orcid.org/0000-0002-5785-6788"
+- family-names: "Becher"
+  given-names: "Michael"
+  orcid: "https://orcid.org/0000-0002-0072-1655"
+- family-names: "Sedlmair"
+  given-names: "Michael"
+  orcid: "https://orcid.org/0000-0001-7048-9292"
+- family-names: "Weiskopf"
+  given-names: "Daniel"
+  orcid: "https://orcid.org/0000-0003-1174-1026"
+- family-names: "Kurzhals"
+  given-names: "Kuno"
+  orcid: "https://orcid.org/0000-0003-4919-4582"
+title: "Source Code for: Been There, Seen That: Visualization of Movement and 3D Eye Tracking Data from Real-World Environments"
+version: 1.0.0
+doi: 10.18419/darus-3383
+date-released: 2023-06-06
+url: "https://doi.org/10.18419/darus-3383"
+
