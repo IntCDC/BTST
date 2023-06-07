@@ -15,6 +15,32 @@ Once the project is opened in Unity, drag the scenes Gaze Replay and STC to the 
 <img src="https://github.com/IntCDC/BTST/blob/main/Img/ProjectOverview.png" width=70% height=70%>
 </p>
 
+## Structure ##
+ 
+The project includes a folder called Assets, which contains the necessary scripts and data. The important scripts and the data are listed below.
+ 
+ <pre>
+<Assets>
+.
+└── MyScripts
+    └── General
+        |── ButtonFunctionalities # the code for UI elements
+        |── ReadData            # the code for loading the data
+        |── Trajectory            # visualizes movement within space-time cube(STC) 
+        |── StackedHeatMap    # visualizes cube heatmap within STC
+        |── HeatmapWall          # visualizes heatmap within gaze replay        
+        |── ReplayManager_General   # visualizes participants within gaze replay    
+└── Resources
+    └── CSVFiles
+       └──AnchorFile   #contains the files needed to transform the data into one   
+                                  coordinate system
+       └──GazeData   #contains the recorded gaze data of the participants
+└── Scenes
+    |── GazeReplay          # Scene for gaze replay 
+    |── STC                      # Scene for STC 
+</Assets>
+</pre>
+
 ## Background ##
 As mentioned above the data was recorded using the HoloLens 2. We generated a Unity project and utilized the [ARETT package](https://github.com/AR-Eye-Tracking-Toolkit/ARETT)  from Kapp et al., 2020 to record the gaze data of different participants. 
 Afterwards the [ARETT-R-Package](https://github.com/AR-Eye-Tracking-Toolkit/ARETT-R-Package)  was used to obtain fixation data, which were then utilzed for the visualization. 
