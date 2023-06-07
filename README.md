@@ -16,6 +16,7 @@ Once the project is opened in Unity, drag the scenes Gaze Replay and STC to the 
 </p>
 
 ## Background ##
-As mentioned above the data was recorded using the HoloLens 2. We generated a Unity project and utilized the ARETT package from Kapp et al., 2020 (https://github.com/AR-Eye-Tracking-Toolkit/ARETT) to record the gaze data of different participants. 
-Afterwards the ARETT-R-Package (https://github.com/AR-Eye-Tracking-Toolkit/ARETT-R-Package)  was used to obtain fixation data, which were then utilzed for the visualization. 
+As mentioned above the data was recorded using the HoloLens 2. We generated a Unity project and utilized the [ARETT package](https://github.com/AR-Eye-Tracking-Toolkit/ARETT)  from Kapp et al., 2020 to record the gaze data of different participants. 
+Afterwards the [ARETT-R-Package](https://github.com/AR-Eye-Tracking-Toolkit/ARETT-R-Package)  was used to obtain fixation data, which were then utilzed for the visualization. 
 To avoid copyright infringement we replaced the photogrammetry mesh with a standard cube and added the artwork collections, to visualize the contextual information.  
+For more details regarding the individual visualization techniques, we refer to our paper.
