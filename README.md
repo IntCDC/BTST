@@ -51,4 +51,4 @@ To avoid copyright infringement we replaced the photogrammetry mesh with a stand
 For more details regarding the individual visualization techniques, we refer to our paper.
 
 ## Reference ##
-Paper Been There, Seen That (BTST): Visualization of 3D eye tracking data from real world environments
+Pathmanathan, N., Öney, S., Becher, M., Sedlmair, M., Weiskopf, D. and Kurzhals, K. (2023), Been There, Seen That: Visualization of Movement and 3D Eye Tracking Data from Real-World Environments. Computer Graphics Forum, 42: 385-396. https://doi.org/10.1111/cgf.14838
